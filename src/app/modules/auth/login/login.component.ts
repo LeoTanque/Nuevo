@@ -158,7 +158,7 @@ export class LoginComponent implements OnInit {
             console.error(error);
             this.showGeneralError();
           }
-        }
+        } 
       );
     } else {
       this.showValidationError();
